@@ -1,0 +1,116 @@
+.logo {
+    width: 120px;
+    height: 66px;
+    margin: 0px 35px;
+    padding: 0px 15px;
+}
+
+* {}
+
+.navbar {
+    width: 100%;
+    background-color: black;
+    color: white;
+    position: fixed;
+    z-index: 3;
+}
+
+.navbar .navbar-toggler .navbar-toggler-icon { 
+    background-color: rgb(255, 255, 255);
+}
+
+.nav-link {
+    margin-left: 10px;
+    font-family: 'open sans condensed', serif;
+    font-size: 18px;
+
+}
+
+
+
+.fa-solid {
+    margin: 5px 10px;
+}
+
+.carousel-inner-two {
+    width: 100vh;
+    max-width: 100vh;
+    height: 100vh;
+    max-height: 100vh;
+    background-color: white;
+}
+
+
+.row p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    font-family: 'open sans condensed', serif;
+    font-size: 24px;
+
+
+}
+
+.first {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    font-family: 'open sans condensed', serif;
+    font-size: 24px;
+    letter-spacing: 5px;
+    line-height: 2;
+    font-weight: 400;
+}
+
+@media screen and (max-width: 600px) {
+    .first {
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        margin-bottom: 50px;
+        margin-top: 50px;
+        font-family: 'open sans condensed', serif;
+        font-size: 24px;
+        letter-spacing: 5px;
+        line-height: 2;
+        font-weight: 400;
+    }
+
+}
+
+.second {
+    width: 100%;
+    max-width: 100%;
+}
+
+.second img {
+    width: 100%;
+    max-width: 100%;
+}
+
+.foot img {
+    width: 50%;
+    padding: 0 0 20px;
+}
+
+.foot-l {
+    width: 120px;
+}
+
+.foot-main {
+    color: #be9509;
+}
+
+.text {
+    color: #be9509;
+    text-decoration: none;
+}
+
+main {
+    display: inline;
+}
